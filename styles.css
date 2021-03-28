@@ -1,0 +1,42 @@
+/* medve változzon fehér/piros medvére amikor hoverelek header h1-ra */
+
+body{
+    background-image: url("berlin2.png");
+    background-size: 1400px;
+    font-family: monospace;
+    margin:0;
+    padding:0;
+}
+
+header h1{
+    background-color:yellow;
+    font-family:Courier;
+    margin:0;
+    padding: 3px;
+}
+
+footer{
+    background-color:red;
+    width: 50px;
+    float:right;
+    padding: 2px;
+    margin-top: 600px;
+}
+
+footer {
+    transition: width 1s;
+  }
+
+footer:hover {
+    width: 100px;
+  }
+
+header h1:hover{
+    background-color: black;
+    color:white;
+}
+
+#bear{
+    width: 40px;
+}
+
