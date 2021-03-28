@@ -1,4 +1,7 @@
 /* medve változzon fehér/piros medvére amikor hoverelek header h1-ra */
+/* footer LEGVÉGÉN pozicionálni mert így ugrál összevissza */
+/* megformázni a popupot */
+/* többi instruction digical */
 
 body{
     background-image: url("berlin2.png");
@@ -6,6 +9,7 @@ body{
     font-family: monospace;
     margin:0;
     padding:0;
+    position:relative;
 }
 
 header h1{
@@ -20,12 +24,9 @@ footer{
     width: 50px;
     float:right;
     padding: 2px;
-    margin-top: 600px;
-}
-
-footer {
+    margin-top: 610px;
     transition: width 1s;
-  }
+}
 
 footer:hover {
     width: 100px;
@@ -37,6 +38,19 @@ header h1:hover{
 }
 
 #bear{
-    width: 40px;
+    width: 30px;
+    position:absolute;
+    top:6px;
+    left:400px;
 }
 
+.form-popup{
+    display:none;
+}
+
+.icon{
+    width:30px;
+}
+.icon:hover{
+    width:50px;
+}
