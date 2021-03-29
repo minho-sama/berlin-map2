@@ -43,6 +43,30 @@ function openCurry() {
   function closeDisko() {
     document.querySelector("#disko-pop").style.display = "none";
   }
+
+  function openKebab() {
+    document.querySelector("#kebab-pop").style.display = "block";
+  }
+
+  function closeKebab() {
+    document.querySelector("#kebab-pop").style.display = "none";
+  }
+
+  function openDome() {
+    document.querySelector("#dome-pop").style.display = "block";
+  }
+
+  function closeDome() {
+    document.querySelector("#dome-pop").style.display = "none";
+  }
+
+  function openThai() {
+    document.querySelector("#thai-pop").style.display = "block";
+  }
+
+  function closeThai() {
+    document.querySelector("#thai-pop").style.display = "none";
+  }
   //ne bonyolítsd túl, csak másold majd ki egymás után többször
 
   //ha advancebb leszek akkor az icon nyitás és zárás egyben --> if icon.style.display == hiddennel
