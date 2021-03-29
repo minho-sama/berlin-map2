@@ -12,13 +12,43 @@
         <img id='bear' src = 'images/bear.png' alt = 'barchen'>
     ></header>
 
-    <input class='icon' id='curry-icon' onclick="openFormBear()" type="image" src="images/curry.png" />
+    <input class='icon' id='curry-icon' onclick="openCurry()" type="image" src="images/curry.png" />
     <div class="form-popup" id="curry-pop">
         <form class="form-container">
             <h3 class='form-header'>Curry 61</h1>
             <p class='form-text'>Ahhoz képest, hogy a currywurst berlini, a legtöbb helyen virsli ketchuppel. Itt nem.</p>  
             <a class='form-link' target="_blank" href = 'http://www.curry61.de/'>link to page</a>
-            <button class="btn cancel" onclick="closeFormBear()" type="submit" >close</button>
+            <button class="btn cancel" onclick="closeCurry()" type="submit" >close</button>
+        </form>
+    </div>
+
+    <input class='icon' id='burger-icon' onclick="openBurger()" type="image" src="images/burgermeister.png" />
+    <div class="form-popup" id="burger-pop">
+        <form class="form-container">
+            <h3 class='form-header'>Burgermeister (SCHLESISCHES TOR)</h1>
+            <p class='form-text'>Legjobb hamburger meg krumpli, egy mosdófülkéből átalakítva. A környéken East Side Gallery, fura híd, fura emberek.</p>  
+            <a class='form-link' target="_blank" href = 'https://burger-meister.de/'>link to page</a>
+            <button class="btn cancel" onclick="closeBurger()" type="submit" >close</button>
+        </form>
+    </div>
+
+    <input class='icon' id='hostel-icon' onclick="openHostel()" type="image" src="images/hostel.png" />
+    <div class="form-popup" id="hostel-pop">
+        <form class="form-container">
+            <h3 class='form-header'>Circus Hostel</h1>
+            <p class='form-text'>Ha elfogyna a pénz és kéne hely. Az alagsorban ingyenes David Hasselhof múzeum, érdemes megnézni.</p>  
+            <a class='form-link' target="_blank" href = 'https://circus-berlin.de/de/hostel/'>link to page</a>
+            <button class="btn cancel" onclick="closeHostel()" type="submit" >close</button>
+        </form>
+    </div>
+
+    <input class='icon' id='disko-icon' onclick="openDisko()" type="image" src="images/teledisko.png" />
+    <div class="form-popup" id="disko-pop">
+        <form class="form-container">
+            <h3 class='form-header'>Teledisko gold</h1>
+            <p class='form-text'>24/7 disko talán járvány idején is, ragálymentes.</p>  
+            <a class='form-link' target="_blank" href = 'http://www.teledisko.com/location.html'>link to page</a>
+            <button class="btn cancel" onclick="closeDisko()" type="submit" >close</button>
         </form>
     </div>
 

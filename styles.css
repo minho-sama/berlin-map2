@@ -78,11 +78,49 @@ header h1:hover{
 #curry-icon{
     position:absolute;
     top:270px;
-    left:645px;
+    left:678px;
+    width:50px;
+}
+
+#burger-pop{
+    position:absolute;
+    top:480px;
+    left:830px;
+}
+
+#burger-icon{
+    position:absolute;
+    top:460px;
+    left:760px;
+}
+
+#hostel-pop{
+    position:absolute;
+    top:140px;
+    left:200px;
+}
+
+#hostel-icon{
+    position:absolute;
+    top:270px;
+    left:600px;
+}
+
+#disko-pop{
+    position:absolute;
+    top:300px;
+    left:920px;
+}
+
+#disko-icon{
+    position:absolute;
+    top:340px;
+    left:830px;
+    width:60px;
 }
 
 .icon{
-    width:45px;
+    width:60px;
     transition: all .2s ease-in-out;
 }
 

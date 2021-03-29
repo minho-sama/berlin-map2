@@ -12,13 +12,36 @@ function unHoverBear(){
   bear.setAttribute('src', 'images/bear.png' )
 }
 
-
-function openFormBear() {
-    document.querySelector(".form-popup").style.display = "block";
+function openCurry() {
+    document.querySelector("#curry-pop").style.display = "block";
   }
 
-  function closeFormBear() {
-    document.querySelector(".form-popup").style.display = "none";
+  function closeCurry() {
+    document.querySelector("#curry-pop").style.display = "none";
+  }
+
+  function openBurger() {
+    document.querySelector("#burger-pop").style.display = "block";
+  }
+
+  function closeBurger() {
+    document.querySelector("#burger-pop").style.display = "none";
+  }
+
+  function openHostel() {
+    document.querySelector("#hostel-pop").style.display = "block";
+  }
+
+  function closeHostel() {
+    document.querySelector("#hostel-pop").style.display = "none";
+  }
+
+  function openDisko() {
+    document.querySelector("#disko-pop").style.display = "block";
+  }
+
+  function closeDisko() {
+    document.querySelector("#disko-pop").style.display = "none";
   }
   //ne bonyolítsd túl, csak másold majd ki egymás után többször
 
