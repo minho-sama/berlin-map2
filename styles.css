@@ -17,8 +17,73 @@ header h1{
     font-family:Courier;
     margin:0;
     padding: 3px;
+    transition: 0.3s;
 }
 
+header h1:hover{
+    background-color: black;
+    color:white;
+} 
+
+#bear{
+    width: 30px;
+    position:absolute;
+    top:6px;
+    right:870px;
+}
+
+/* form-popup*/
+.form-popup{
+    display:none;
+    background-color:black;
+    color:yellow;
+    width:320px;
+    padding:10px;
+}
+.form-popup p{
+    color:white;
+    text-align:justify;
+}
+
+.form-popup a{
+    text-decoration:none;
+    color:white;
+    text-decoration:underline;
+}
+
+.form-popup a:hover{
+    color:yellow;
+}
+
+.cancel{
+    font-family: monospace;
+    background-color: white;
+    border: none;
+    float:right;
+}
+
+/*form-popup*/
+
+#bear-pop{
+    position:absolute;
+    top:500px;
+}
+
+.icon{
+    width:40px;
+    transition: all .2s ease-in-out;
+}
+
+.icon:hover{
+    transform:scale(1.4)
+}
+
+#bear-icon{
+    position:absolute;
+    top:100px;
+    left:40px;
+}
+/*footer*/
 footer{
     background-color:red;
     width: 50px;
@@ -31,26 +96,3 @@ footer{
 footer:hover {
     width: 100px;
   }
-
-header h1:hover{
-    background-color: black;
-    color:white;
-}
-
-#bear{
-    width: 30px;
-    position:absolute;
-    top:6px;
-    left:400px;
-}
-
-.form-popup{
-    display:none;
-}
-
-.icon{
-    width:30px;
-}
-.icon:hover{
-    width:50px;
-}
