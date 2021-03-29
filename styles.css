@@ -4,7 +4,7 @@
 /* többi instruction digical */
 
 body{
-    background-image: url("images/berlin2.png");
+    background-image: url("images/berlinCloser.png");
     background-size: 1400px;
     font-family: monospace;
     margin:0;
@@ -71,51 +71,53 @@ header h1:hover{
 
 #curry-pop{
     position:absolute;
-    top:80px;
-    left:700px;
+    top:145px;
+    left:720px;
 }
 
 #curry-icon{
     position:absolute;
-    top:270px;
-    left:678px;
+    top:260px;
+    left:650px;
     width:50px;
-}
-
-#burger-pop{
-    position:absolute;
-    top:480px;
-    left:830px;
-}
-
-#burger-icon{
-    position:absolute;
-    top:460px;
-    left:760px;
 }
 
 #hostel-pop{
     position:absolute;
-    top:140px;
+    top:110px;
     left:200px;
 }
 
 #hostel-icon{
     position:absolute;
-    top:270px;
-    left:600px;
+    top:240px;
+    left:580px;
+    width: 65px;
+}
+
+#burger-pop{
+    position:absolute;
+    top:535px;
+    right: 450px;
+}
+
+#burger-icon{
+    position:absolute;
+    top:535px;
+    right:350px;
+    width:65px;
 }
 
 #disko-pop{
     position:absolute;
-    top:300px;
+    top:260px;
     left:920px;
 }
 
 #disko-icon{
     position:absolute;
-    top:340px;
-    left:830px;
+    top:420px;
+    right:260px;
     width:60px;
 }
 
