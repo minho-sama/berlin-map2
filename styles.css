@@ -29,7 +29,7 @@ header h1:hover{
     width: 30px;
     position:absolute;
     top:6px;
-    right:870px;
+    left:400px;
 }
 
 /* form-popup*/
@@ -97,27 +97,27 @@ header h1:hover{
 
 #burger-pop{
     position:absolute;
-    top:535px;
-    right: 485px;
+    top:600px;
+    right:485px;
 }
 
 #burger-icon{
     position:absolute;
     top:505px;
-    right:390px;
+    right:520px;
     width:80px;
 }
 
 #disko-pop{
     position:absolute;
-    top:230px;
-    left:920px;
+    top:350px;
+    right:30px;
 }
 
 #disko-icon{
     position:absolute;
     top:380px;
-    right:295px;
+    right:400px;
     width:80px;
 }
 
